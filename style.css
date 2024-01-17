@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: black;
+}
+
+header {
+
+    position: fixed;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+   
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-right: 50px ;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.home {
+    background-image: url(img/J1ZYro.webp); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+  
+    padding: 250px 20px; /* Adjust the padding as needed */
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700; 
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e5bb00; 
+}
+
+
+
+.about {
+    margin-top: 50px;
+    background-color:black; 
+    padding: 80px 20px; 
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about h2 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+/* Your existing CSS styles here */
+
+.services {
+    background-color: black; /* Change to your preferred background color */
+    padding: 80px 20px; /* Adjust the padding as needed */
+}
+
+.services-container {
+    margin-top: 75px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.service p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: white;
+}
+
+/* Your existing CSS styles here */
+
+.contact {
+    background-color: black; /* Change to your preferred background color */
+    padding: 80px 20px; /* Adjust the padding as needed */
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+}
+
+label {
+    color: white;
+    font-size: 1.2em;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #ffd700; /* Change to your preferred button color */
+    color: #333;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e5bb00; /* Change to your preferred hover color */
+}
+
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+.services-container img {
+    width: 300px;
+    height: 300px;
+}
+
+.fade {
+    animation: fade 1.5s ease-in-out infinite;
+}
+
+@keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}

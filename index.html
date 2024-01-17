@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="style">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Your Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="hero">
+            <h1 id="animated-text">Welcome to club palahubog</h1>
+            <p>ikaw nlang bahala og ilis ani dae.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>Welcome to Your Website! We are dedicated to...</p>
+            <p>ari sad ikaw nalang sad bahala ani</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="services-container">
+            <h2>Our Services</h2>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="img/OIP.jpg" alt="Slide 1">
+                </div>
+                <div class="slide fade">
+                    <img src="img/po.jpg" alt="Slide 2">
+                </div>
+                <div class="slide fade">
+                    <img src="img/poo.jpg" alt="Slide 3">
+                </div>
+             
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Have a question or want to get in touch? Fill out the form below:</p>
+            
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
